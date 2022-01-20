@@ -5426,7 +5426,7 @@ module.exports = function(Chart) {
 	};
 	helpers.splineCurve = function(firstPoint, middlePoint, afterPoint, t) {
 		// Props to Rob Spencer at scaled innovation for his post on splining between points
-		// http://scaledinnovation.com/analytics/splines/aboutSplines.html
+		// http://scaledinnovation.com/analytics/splines/aboutSplines.php
 
 		// This function must also respect "skipped" points
 
@@ -5625,7 +5625,7 @@ module.exports = function(Chart) {
 
 		// Scale mouse coordinates into canvas coordinates
 		// by following the pattern laid out by 'jerryj' in the comments of
-		// http://www.html5canvastutorials.com/advanced/html5-canvas-mouse-coordinates/
+		// http://www.php5canvastutorials.com/advanced/html5-canvas-mouse-coordinates/
 		var paddingLeft = parseFloat(helpers.getStyle(canvas, 'padding-left'));
 		var paddingTop = parseFloat(helpers.getStyle(canvas, 'padding-top'));
 		var paddingRight = parseFloat(helpers.getStyle(canvas, 'padding-right'));
@@ -10897,7 +10897,7 @@ module.exports = {
 		// The canvas render size might have been changed (and thus the state stack discarded),
 		// we can't use save() and restore() to restore the initial state. So make sure that at
 		// least the canvas context is reset to the default state by setting the canvas width.
-		// https://www.w3.org/TR/2011/WD-html5-20110525/the-canvas-element.html
+		// https://www.w3.org/TR/2011/WD-html5-20110525/the-canvas-element.php
 		canvas.width = canvas.width;
 
 		delete canvas[EXPANDO_KEY];
@@ -10975,7 +10975,7 @@ var implementation = dom._enabled ? dom : basic;
 
 /**
  * @namespace Chart.platform
- * @see https://chartjs.gitbooks.io/proposals/content/Platform.html
+ * @see https://chartjs.gitbooks.io/proposals/content/Platform.php
  * @since 2.4.0
  */
 module.exports = helpers.extend({

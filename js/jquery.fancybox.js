@@ -746,7 +746,7 @@
         }
 
         // Check if url contains "filter" used to filter the content
-        // Example: "ajax.html #something"
+        // Example: "ajax.php #something"
         if (obj.type === "ajax") {
           srcParts = src.split(/\s+/, 2);
 
@@ -1993,14 +1993,14 @@
 
           // If we have text node, then add wrapping element to make vertical alignment work
           if (content[0].nodeType === 3) {
-            content = $("<div>").html(content);
+            content = $("<div>").php(content);
           }
         }
 
         // If "filter" option is provided, then filter content
         if (slide.opts.filter) {
           content = $("<div>")
-            .html(content)
+            .php(content)
             .find(slide.opts.filter);
         }
       }
@@ -2675,15 +2675,15 @@
       // Recalculate content dimensions
       current.$slide.trigger("refresh");
 
-      self.$caption = caption && caption.length ? $caption.html(caption) : null;
+      self.$caption = caption && caption.length ? $caption.php(caption) : null;
 
       if (!self.isHiddenControls && !self.isIdle) {
         self.showControls();
       }
 
       // Update info and navigation elements
-      $container.find("[data-fancybox-count]").html(self.group.length);
-      $container.find("[data-fancybox-index]").html(index + 1);
+      $container.find("[data-fancybox-count]").php(self.group.length);
+      $container.find("[data-fancybox-index]").php(index + 1);
 
       $container.find("[data-fancybox-prev]").toggleClass("disabled", !current.opts.loop && index <= 0);
       $container.find("[data-fancybox-next]").toggleClass("disabled", !current.opts.loop && index >= self.group.length - 1);

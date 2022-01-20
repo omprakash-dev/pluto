@@ -21,7 +21,7 @@
       <!-- responsive css -->
       <link rel="stylesheet" href="css/responsive.css" />
       <!-- color css -->
-      <link rel="stylesheet" href="css/color_2.css" />
+      <link rel="stylesheet" href="css/colors.css" />
       <!-- select bootstrap -->
       <link rel="stylesheet" href="css/bootstrap-select.css" />
       <!-- scrollbar css -->
@@ -33,7 +33,7 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
    </head>
-   <body class="dashboard dashboard_2">
+   <body class="dashboard dashboard_1">
       <div class="full_container">
          <div class="inner_container">
             <!-- Sidebar  -->
@@ -41,7 +41,7 @@
                <div class="sidebar_blog_1">
                   <div class="sidebar-header">
                      <div class="logo_section">
-                        <a href="index.html"><img class="logo_icon img-responsive" src="images/logo/logo_icon.png" alt="#" /></a>
+                        <a href="index.php"><img class="logo_icon img-responsive" src="images/logo/logo_icon.png" alt="#" /></a>
                      </div>
                   </div>
                   <div class="sidebar_user_info">
@@ -62,57 +62,57 @@
                         <a href="#dashboard" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-dashboard yellow_color"></i> <span>Dashboard</span></a>
                         <ul class="collapse list-unstyled" id="dashboard">
                            <li>
-                              <a href="dashboard.html">> <span>Default Dashboard</span></a>
+                              <a href="dashboard.php">> <span>Default Dashboard</span></a>
                            </li>
                            <li>
-                              <a href="dashboard_2.html">> <span>Dashboard style 2</span></a>
+                              <a href="dashboard_2.php">> <span>Dashboard style 2</span></a>
                            </li>
                         </ul>
                      </li>
-                     <li><a href="widgets.html"><i class="fa fa-clock-o orange_color"></i> <span>Widgets</span></a></li>
+                     <li><a href="widgets.php"><i class="fa fa-clock-o orange_color"></i> <span>Widgets</span></a></li>
                      <li>
                         <a href="#element" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-diamond purple_color"></i> <span>Elements</span></a>
                         <ul class="collapse list-unstyled" id="element">
-                           <li><a href="general_elements.html">> <span>General Elements</span></a></li>
-                           <li><a href="media_gallery.html">> <span>Media Gallery</span></a></li>
-                           <li><a href="icons.html">> <span>Icons</span></a></li>
-                           <li><a href="invoice.html">> <span>Invoice</span></a></li>
+                           <li><a href="general_elements.php">> <span>General Elements</span></a></li>
+                           <li><a href="media_gallery.php">> <span>Media Gallery</span></a></li>
+                           <li><a href="icons.php">> <span>Icons</span></a></li>
+                           <li><a href="invoice.php">> <span>Invoice</span></a></li>
                         </ul>
                      </li>
-                     <li><a href="tables.html"><i class="fa fa-table purple_color2"></i> <span>Tables</span></a></li>
+                     <li><a href="tables.php"><i class="fa fa-table purple_color2"></i> <span>Tables</span></a></li>
                      <li>
                         <a href="#apps" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-object-group blue2_color"></i> <span>Apps</span></a>
                         <ul class="collapse list-unstyled" id="apps">
-                           <li><a href="email.html">> <span>Email</span></a></li>
-                           <li><a href="calendar.html">> <span>Calendar</span></a></li>
-                           <li><a href="media_gallery.html">> <span>Media Gallery</span></a></li>
+                           <li><a href="email.php">> <span>Email</span></a></li>
+                           <li><a href="calendar.php">> <span>Calendar</span></a></li>
+                           <li><a href="media_gallery.php">> <span>Media Gallery</span></a></li>
                         </ul>
                      </li>
-                     <li><a href="price.html"><i class="fa fa-briefcase blue1_color"></i> <span>Pricing Tables</span></a></li>
+                     <li><a href="price.php"><i class="fa fa-briefcase blue1_color"></i> <span>Pricing Tables</span></a></li>
                      <li>
-                        <a href="contact.html">
+                        <a href="contact.php">
                         <i class="fa fa-paper-plane red_color"></i> <span>Contact</span></a>
                      </li>
                      <li class="active">
                         <a href="#additional_page" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-clone yellow_color"></i> <span>Additional Pages</span></a>
                         <ul class="collapse list-unstyled" id="additional_page">
                            <li>
-                              <a href="profile.html">> <span>Profile</span></a>
+                              <a href="profile.php">> <span>Profile</span></a>
                            </li>
                            <li>
-                              <a href="project.html">> <span>Projects</span></a>
+                              <a href="project.php">> <span>Projects</span></a>
                            </li>
                            <li>
-                              <a href="login.html">> <span>Login</span></a>
+                              <a href="login.php">> <span>Login</span></a>
                            </li>
                            <li>
-                              <a href="404_error.html">> <span>404 Error</span></a>
+                              <a href="404_error.php">> <span>404 Error</span></a>
                            </li>
                         </ul>
                      </li>
-                     <li><a href="map.html"><i class="fa fa-map purple_color2"></i> <span>Map</span></a></li>
-                     <li><a href="charts.html"><i class="fa fa-bar-chart-o green_color"></i> <span>Charts</span></a></li>
-                     <li><a href="settings.html"><i class="fa fa-cog yellow_color"></i> <span>Settings</span></a></li>
+                     <li><a href="map.php"><i class="fa fa-map purple_color2"></i> <span>Map</span></a></li>
+                     <li><a href="charts.php"><i class="fa fa-bar-chart-o green_color"></i> <span>Charts</span></a></li>
+                     <li><a href="settings.php"><i class="fa fa-cog yellow_color"></i> <span>Settings</span></a></li>
                   </ul>
                </div>
             </nav>
@@ -125,7 +125,7 @@
                      <div class="full">
                         <button type="button" id="sidebarCollapse" class="sidebar_toggle"><i class="fa fa-bars"></i></button>
                         <div class="logo_section">
-                           <a href="index.html"><img class="img-responsive" src="images/logo/logo_black.png" alt="#" /></a>
+                           <a href="index.php"><img class="img-responsive" src="images/logo/logo.png" alt="#" /></a>
                         </div>
                         <div class="right_topbar">
                            <div class="icon_info">
@@ -138,9 +138,9 @@
                                  <li>
                                     <a class="dropdown-toggle" data-toggle="dropdown"><img class="img-responsive rounded-circle" src="images/layout_img/user_img.jpg" alt="#" /><span class="name_user">John David</span></a>
                                     <div class="dropdown-menu">
-                                       <a class="dropdown-item" href="profile.html">My Profile</a>
-                                       <a class="dropdown-item" href="settings.html">Settings</a>
-                                       <a class="dropdown-item" href="help.html">Help</a>
+                                       <a class="dropdown-item" href="profile.php">My Profile</a>
+                                       <a class="dropdown-item" href="settings.php">Settings</a>
+                                       <a class="dropdown-item" href="help.php">Help</a>
                                        <a class="dropdown-item" href="#"><span>Log Out</span> <i class="fa fa-sign-out"></i></a>
                                     </div>
                                  </li>
@@ -163,10 +163,10 @@
                      </div>
                      <div class="row column1">
                         <div class="col-md-6 col-lg-3">
-                           <div class="full counter_section margin_bottom_30 yellow_bg">
+                           <div class="full counter_section margin_bottom_30">
                               <div class="couter_icon">
                                  <div> 
-                                    <i class="fa fa-user"></i>
+                                    <i class="fa fa-user yellow_color"></i>
                                  </div>
                               </div>
                               <div class="counter_no">
@@ -178,10 +178,10 @@
                            </div>
                         </div>
                         <div class="col-md-6 col-lg-3">
-                           <div class="full counter_section margin_bottom_30 blue1_bg">
+                           <div class="full counter_section margin_bottom_30">
                               <div class="couter_icon">
                                  <div> 
-                                    <i class="fa fa-clock-o"></i>
+                                    <i class="fa fa-clock-o blue1_color"></i>
                                  </div>
                               </div>
                               <div class="counter_no">
@@ -193,10 +193,10 @@
                            </div>
                         </div>
                         <div class="col-md-6 col-lg-3">
-                           <div class="full counter_section margin_bottom_30 green_bg">
+                           <div class="full counter_section margin_bottom_30">
                               <div class="couter_icon">
                                  <div> 
-                                    <i class="fa fa-cloud-download"></i>
+                                    <i class="fa fa-cloud-download green_color"></i>
                                  </div>
                               </div>
                               <div class="counter_no">
@@ -208,10 +208,10 @@
                            </div>
                         </div>
                         <div class="col-md-6 col-lg-3">
-                           <div class="full counter_section margin_bottom_30 red_bg">
+                           <div class="full counter_section margin_bottom_30">
                               <div class="couter_icon">
                                  <div> 
-                                    <i class="fa fa-comments-o"></i>
+                                    <i class="fa fa-comments-o red_color"></i>
                                  </div>
                               </div>
                               <div class="counter_no">
@@ -315,14 +315,7 @@
                                     <div class="col-md-12">
                                        <div class="content">
                                           <div class="area_chart">
-                                             <div class="row">
-                                                <div class="col-md-6">
-                                                   <canvas id="chart-2"></canvas>
-                                                </div>
-                                                <div class="col-md-6">
-                                                   <canvas id="chart-1"></canvas>
-                                                </div>
-                                             </div>
+                                             <canvas height="120" id="canvas"></canvas>
                                           </div>
                                        </div>
                                     </div>
@@ -504,40 +497,16 @@
                      </div>
                   </div>
                   <!-- footer -->
-                  <div class="container-fluid">
-                     <div class="footer">
-                        <p>Copyright © 2018 Designed by html.design. All rights reserved.<br><br>
-                           Distributed By: <a href="https://themewagon.com/">ThemeWagon</a>
-                        </p>
-                     </div>
-                  </div>
-               </div>
+                  <?php include('footer_html.php');?>
                <!-- end dashboard inner -->
             </div>
          </div>
       </div>
       <!-- jQuery -->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <!-- wow animation -->
-      <script src="js/animate.js"></script>
-      <!-- select country -->
-      <script src="js/bootstrap-select.js"></script>
-      <!-- owl carousel -->
-      <script src="js/owl.carousel.js"></script> 
-      <!-- chart js -->
-      <script src="js/Chart.min.js"></script>
-      <script src="js/Chart.bundle.min.js"></script>
-      <script src="js/utils.js"></script>
-      <script src="js/analyser.js"></script>
-      <!-- nice scrollbar -->
-      <script src="js/perfect-scrollbar.min.js"></script>
-      <script>
-         var ps = new PerfectScrollbar('#sidebar');
-      </script>
+      <?php include('footer_js.php');?>
+      
       <!-- custom js -->
-      <script src="js/custom.js"></script>
-      <script src="js/chart_custom_style2.js"></script>
+      <script src="js/chart_custom_style1.js"></script>
+      
    </body>
 </html>
