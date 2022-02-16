@@ -90,7 +90,7 @@
                      </li>
                      <li><a href="price.php"><i class="fa fa-briefcase blue1_color"></i> <span>Pricing Tables</span></a></li>
                      <li>
-                        <a href="contact.php">
+                        <a href="contact_1.php">
                         <i class="fa fa-paper-plane red_color"></i> <span>Contact</span></a>
                      </li>
                      <li class="active">
