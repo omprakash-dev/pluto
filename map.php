@@ -189,19 +189,7 @@
          </div>
       </div>
       <!-- jQuery -->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <!-- wow animation -->
-      <script src="js/animate.js"></script>
-      <!-- select country -->
-      <script src="js/bootstrap-select.js"></script>
-      <!-- owl carousel -->
-      <script src="js/owl.carousel.js"></script> 
-      <!-- nice scrollbar -->
-      <script src="js/perfect-scrollbar.min.js"></script>
-      <!-- custom js -->
-      
+      <?php include('footer_js.php');?>
       <!-- google map js -->
       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
       <!-- end google map js -->

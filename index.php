@@ -49,7 +49,7 @@
                      <div class="user_profle_side">
                         <div class="user_img"><img class="img-responsive" src="images/layout_img/user_img.jpg" alt="#" /></div>
                         <div class="user_info">
-                           <h6>John David</h6>
+                           <h6>Om David</h6>
                            <p><span class="online_animation"></span> Online</p>
                         </div>
                      </div>
@@ -504,7 +504,7 @@
       </div>
       <!-- jQuery -->
       <?php include('footer_js.php');?>
-      
+
       <!-- custom js -->
       
       <script src="js/chart_custom_style1.js"></script>
