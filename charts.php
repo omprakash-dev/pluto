@@ -146,6 +146,5 @@
       </div>
       <!-- jQuery -->
       <?php include('footer_js.php');?>
-      <script src="js/custom.js"></script>
    </body>
 </html>
