@@ -39,7 +39,11 @@
       <div class="full_container">
          <div class="inner_container">
             <!-- Sidebar  -->
+<<<<<<< HEAD
             <?php include 'side-nav.php'; ?>
+=======
+            <?php include('side-nav.php');?>
+>>>>>>> 131fb75140075990cff723cd3fe29f20ff772acb
             <!-- end sidebar -->
             <!-- right content -->
             <div id="content">
@@ -427,7 +431,11 @@
          </div>
       </div>
       <!-- jQuery -->
+<<<<<<< HEAD
       <?php include 'footer_js.php'; ?>
+=======
+      <?php include('footer_js.php');?>
+>>>>>>> 131fb75140075990cff723cd3fe29f20ff772acb
 
       <!-- custom js -->
 
